@@ -1,15 +1,18 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
+import { Routes } from 'react-router-dom'
 import './App.css'
+import Header from './components/Shared/Header/Header';
 
 function App() {
   
 
   return (
-    <>
-      <h3>Welcom to Manufacturer World</h3>
-    </>
+    <div className="max-w-7xl mx-auto px-5">
+      <Header></Header>
+      <Routes>
+
+      </Routes>
+    </div>
   )
 }
 
