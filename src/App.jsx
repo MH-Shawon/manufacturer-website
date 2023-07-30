@@ -10,6 +10,11 @@ import SignUp from './components/Login/Signup/Signup';
 import RequireAuth from './components/Login/RequireAuth/RequireAuth';
 import Tools from './components/Home/Tools/Tools';
 import Blogs from './components/Home/Blogs/Blogs';
+import MyPortfolio from './components/Home/MyPortfolio/MyPortfolio'
+
+
+
+
 function App() {
   
 
@@ -21,6 +26,7 @@ function App() {
       <Route path='home' element={<Home></Home>} ></Route>
       <Route path='tools' element={<Tools></Tools>} ></Route>
       <Route path='blogs' element={<Blogs></Blogs>} ></Route>
+      <Route path='portfolio' element={<MyPortfolio></MyPortfolio>} ></Route>
 
       <Route path='*' element={<NotFound></NotFound>} ></Route>
       <Route path='login' element={<Login></Login>}></Route>
